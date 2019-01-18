@@ -1,28 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+import theme from './theme';
+import Home from './pages/Home';
+import Ravoeira from './pages/Ravoeira';
+
+function App() {
+  return (
+    <div>
+      <ThemeProvider theme={theme}>
+        <Router>
+          <div style={{ maxWidth: 620, margin: '0 auto' }}>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/ravoeira" component={Ravoeira} />
+            <Route exact path="/spiral-sphinx" component={Ravoeira} />
+          </div>
+        </Router>
+      </ThemeProvider>
+    </div>
+  );
 }
 
 export default App;

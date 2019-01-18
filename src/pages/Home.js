@@ -1,0 +1,96 @@
+import React, { Component } from 'react';
+import { Box, Heading, Text, Link } from 'rebass';
+import { Link as RouterLink } from 'react-router-dom';
+
+const routerLinks = [
+  {
+    label: 'Ravoeira',
+    value: '/ravoeira'
+  }
+  // {
+  //   label: 'Spiral Sphinx',
+  //   value: '/spiral-sphinx'
+  // }
+];
+
+class Home extends Component {
+  render() {
+    return (
+      <div>
+        <Box p={3}>
+          <Heading fontSize={[4, 5]}>infinitesimals » space</Heading>
+        </Box>
+        <EntryText />
+
+        <Box p={3}>
+          <Text fontSize={[2, 3]}>
+            Here you will find documentation of artworks, ideas, and fragments
+            by Emin Durak.
+          </Text>
+        </Box>
+
+        <Box p={3} pt={1}>
+          <Text fontSize={[2, 3]}>I'm currently working on:</Text>
+          <ul>
+            {routerLinks.map(link => (
+              <ListItem
+                key={link.label}
+                label={link.label}
+                value={link.value}
+              />
+            ))}
+            <ListItem
+              label="Pomegra"
+              value="https://app.pomegra.org"
+              isExternal
+            />
+            <ListItem
+              label="Nodal"
+              value="http://www.nodal.network"
+              isExternal
+            />
+          </ul>
+        </Box>
+
+        <Text p={3} pt={6}>
+          contact:{' '}
+          <Link href="mailto:emin@infinitesimals.space">
+            emin@infinitesimals.space
+          </Link>
+        </Text>
+      </div>
+    );
+  }
+}
+
+const ListItem = ({ label, value, isExternal }) => (
+  <li>
+    <Heading fontSize={[3, 4]}>
+      {isExternal ? (
+        <Link href={value} target="_blank">
+          {label}
+        </Link>
+      ) : (
+        <RouterLink to={value}>
+          <Link>{label}</Link>
+        </RouterLink>
+      )}
+    </Heading>
+  </li>
+);
+
+const EntryText = () => (
+  <Box p={3} pb={1}>
+    <Text fontSize={[2, 3]} lineHeight={1.5}>
+      Infinitesimals are infinitely small numbers, objects in nature, that are
+      so incalculably small. Therefore they are <em>assumed</em> to be{' '}
+      <em> Zero (0)</em> in{' '}
+      <Link href="https://en.wikipedia.org/wiki/Mathematical_analysis">
+        Standard Analysis
+      </Link>
+      , despite that they are <em>accepted</em> to be not.
+    </Text>
+  </Box>
+);
+
+export default Home;
