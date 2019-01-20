@@ -27,14 +27,14 @@ class Home extends Component {
         <EntryText />
 
         <Box p={3}>
-          <Text fontSize={[2, 3]}>
+          <Text fontSize={[2]}>
             Here in this website, you will find documentation of artworks,
             ideas, software, and other processes by <b>Emin Durak</b>.
           </Text>
         </Box>
 
         <Box p={3} pt={0}>
-          <Text fontSize={[2, 3]}>Currently working on:</Text>
+          <Text fontSize={[2]}>Currently working on:</Text>
           <ul>
             {routerLinks.map(link => (
               <ListItem
@@ -92,7 +92,11 @@ const EntryText = () => (
       <Link href="https://en.wikipedia.org/wiki/Mathematical_analysis">
         Standard Analysis
       </Link>
-      , despite that they are <em>admitted</em> to be not.
+      , despite that they are{' '}
+      <Link href="https://plato.stanford.edu/entries/continuity/">
+        <em>admitted</em>
+      </Link>{' '}
+      to be not.
     </Text>
   </Box>
 );

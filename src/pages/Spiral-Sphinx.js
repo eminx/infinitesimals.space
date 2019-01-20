@@ -25,8 +25,8 @@ class SpiralSphinx extends Component {
               also infinitesimals theory in mathematics, Spiral Sphinx is a
               framework for movement improvisations. Pursued as a workshop that
               continue with certain instructions and exercises given to
-              participants, it is practiced with a set of special methods, due
-              to its connection to geometry and mathematics of the body.
+              participants, it is practiced with a set of special methods,
+              related to geometry and mathematics of the body.
             </p>
             <p>
               Within Spiral Sphinx, participants explore the boundaries that

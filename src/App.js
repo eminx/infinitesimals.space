@@ -14,20 +14,20 @@ function App() {
   return (
     <div>
       <ThemeProvider theme={theme}>
-        <Container>
+        <Container fluid="true">
           <Row>
             <Col md={3}>
-              {isNotHomePage && (
-                <div
-                  style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    paddingTop: 24
-                  }}
-                >
-                  <Link href="/">Home</Link>
-                </div>
-              )}
+              {/* {isNotHomePage && ( */}
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  paddingTop: 24
+                }}
+              >
+                <Link href="/">Home</Link>
+              </div>
+              {/* )} */}
             </Col>
             <Col md={6}>
               <Router>
