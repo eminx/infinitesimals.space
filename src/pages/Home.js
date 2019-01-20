@@ -14,6 +14,10 @@ const routerLinks = [
 ];
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
@@ -71,8 +75,8 @@ const ListItem = ({ label, value, isExternal }) => (
           {label}
         </Link>
       ) : (
-        <RouterLink to={value}>
-          <Link>{label}</Link>
+        <RouterLink to={value} style={{ color: '#07c' }}>
+          {label}
         </RouterLink>
       )}
     </Heading>

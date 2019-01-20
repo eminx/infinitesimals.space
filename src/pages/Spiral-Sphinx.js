@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Box, Heading, Text } from 'rebass';
 
 class SpiralSphinx extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
