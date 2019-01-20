@@ -4,33 +4,33 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const routerLinks = [
   {
+    label: 'Spiral Sphinx',
+    value: '/spiral-sphinx'
+  },
+  {
     label: 'Ravoeira',
     value: '/ravoeira'
   }
-  // {
-  //   label: 'Spiral Sphinx',
-  //   value: '/spiral-sphinx'
-  // }
 ];
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Box p={3}>
+        <Box p={3} pb={0}>
           <Heading fontSize={[4, 5]}>infinitesimals » space</Heading>
         </Box>
         <EntryText />
 
         <Box p={3}>
           <Text fontSize={[2, 3]}>
-            Here you will find documentation of artworks, ideas, and fragments
-            by Emin Durak.
+            Here in this website, you will find documentation of artworks,
+            ideas, software, and other processes by <b>Emin Durak</b>.
           </Text>
         </Box>
 
-        <Box p={3} pt={1}>
-          <Text fontSize={[2, 3]}>I'm currently working on:</Text>
+        <Box p={3} pt={0}>
+          <Text fontSize={[2, 3]}>Currently working on:</Text>
           <ul>
             {routerLinks.map(link => (
               <ListItem
@@ -65,7 +65,7 @@ class Home extends Component {
 
 const ListItem = ({ label, value, isExternal }) => (
   <li>
-    <Heading fontSize={[3, 4]}>
+    <Heading fontSize={[2, 3]} fontWeight={400}>
       {isExternal ? (
         <Link href={value} target="_blank">
           {label}
@@ -80,15 +80,15 @@ const ListItem = ({ label, value, isExternal }) => (
 );
 
 const EntryText = () => (
-  <Box p={3} pb={1}>
-    <Text fontSize={[2, 3]} lineHeight={1.5}>
+  <Box p={3}>
+    <Text fontSize={[2]} lineHeight={1.5}>
       Infinitesimals are infinitely small numbers, objects in nature, that are
       so incalculably small. Therefore they are <em>assumed</em> to be{' '}
       <em> Zero (0)</em> in{' '}
       <Link href="https://en.wikipedia.org/wiki/Mathematical_analysis">
         Standard Analysis
       </Link>
-      , despite that they are <em>accepted</em> to be not.
+      , despite that they are <em>admitted</em> to be not.
     </Text>
   </Box>
 );

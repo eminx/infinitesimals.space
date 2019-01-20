@@ -7,13 +7,13 @@ class Ravoeira extends Component {
       <div>
         <Box p={3}>
           <Heading fontSize={[4, 5]}>Ravoeira</Heading>
-          <Heading fontSize={[3, 4]}>Desire, Resistance, Surrender</Heading>
+          <Heading fontSize={[2, 3]}>desire, resistance, surrender</Heading>
           <Text italic>
             <em>choreography</em>
           </Text>
         </Box>
         <Box p={3}>
-          <Text fontSize={[2, 3]}>
+          <Text fontSize={[2]}>
             <p>
               Ravoeira is a sequence of historical records; of an entirely
               subjective analysis of a fictional character, who lived over

@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from './theme';
 import Home from './pages/Home';
 import Ravoeira from './pages/Ravoeira';
+import SpiralSphinx from './pages/Spiral-Sphinx';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <div style={{ maxWidth: 620, margin: '0 auto' }}>
             <Route exact path="/" component={Home} />
             <Route exact path="/ravoeira" component={Ravoeira} />
-            <Route exact path="/spiral-sphinx" component={Ravoeira} />
+            <Route exact path="/spiral-sphinx" component={SpiralSphinx} />
           </div>
         </Router>
       </ThemeProvider>
