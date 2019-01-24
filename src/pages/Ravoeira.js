@@ -17,6 +17,7 @@ class Ravoeira extends Component {
           </Text>
         </Box>
         <Box p={3}>
+          <Heading fontSize={[3, 4]}>Thorough Explanation</Heading>
           <Text fontSize={[2]}>
             <p>
               Ravoeira is a sequence of historical records; of an entirely

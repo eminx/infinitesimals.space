@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Box, Heading, Text } from 'rebass';
+import ReactPlayer from 'react-player';
 
 class SpiralSphinx extends Component {
   componentDidMount() {
@@ -19,31 +20,37 @@ class SpiralSphinx extends Component {
           </Text>
         </Box>
         <Box p={3}>
+          <Heading fontSize={[3, 4]}>Concept</Heading>
           <Text fontSize={[2]}>
             <p>
               Inspired primarily from Capoeira and its historical evolution, but
-              also infinitesimals theory in mathematics, Spiral Sphinx is a
-              framework for movement improvisations. Pursued as a workshop that
-              continue with certain instructions and exercises given to
-              participants, it is practiced with a set of special methods,
-              related to geometry and mathematics of the body.
+              also infinitesimals theory in mathematics, and some other
+              improvisation techniques such as <em>Axis Syllabus</em> (Frey
+              Faust) and <em>Continously into Movement</em> (Eva
+              Georgitsopoulou); Spiral Sphinx is a framework for movement
+              improvisations. Pursued as a workshop that continue with certain
+              instructions and exercises given to its participants, it is
+              practiced with a set of special methods, related to geometry and
+              mathematics of the body.
             </p>
+          </Text>
+          <Text fontSize={[2]}>
             <p>
               Within Spiral Sphinx, participants explore the boundaries that
               they often consent to move within during daily quotidian movements
               - such as actively or passively being choreographed by interior
-              settings and furniture at any given space. Participants are
-              expected to become aware and re-articulate default choreography
-              executed by modernist-industrialist axiom that recur in varying
-              forms. Then the process continues by trying to create new
-              algebraic formulations that lead us to move in unprecedented
-              rhythms as opposed to movements that occur within such determinate
-              external barriers.
+              settings and furniture at any given space. They are expected to
+              become aware and re-articulate default choreography executed by
+              modernist-industrialist axiom that recur in varying forms, guided
+              by a serious of instructions of collapse and expand. Then the
+              process continues by trying to create new algebraic formulations
+              that lead us to move in unprecedented rhythms as opposed to
+              movements that occur within such determinate external barriers.
             </p>
             <p>
               Seeing body as a radically autonomous assemblage and everything it
-              does as an impact of an algebraically complex algorithm, we’re
-              curious to see how a set of simple & complex algebraic movement
+              does as an impact of an algebraically complex algorithm, one could
+              be curious to see how a set of simple & complex algebraic movement
               codes can regenerate endless possibilities of complex curves in
               movement. In Spiral Sphinx, movements are not externally
               predefined by a space limiting an organism that it contains. In
@@ -51,6 +58,13 @@ class SpiralSphinx extends Component {
               patterns via oscillating rhythms.
             </p>
           </Text>
+
+          <Box py={20}>
+            <Heading py={20} fontSize={[3, 4]}>
+              Fragments
+            </Heading>
+            <ReactPlayer url="https://vimeo.com/313034151" width="100%" />
+          </Box>
         </Box>
       </div>
     );
