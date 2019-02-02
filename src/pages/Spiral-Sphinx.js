@@ -21,7 +21,15 @@ class SpiralSphinx extends Component {
         </Box>
         <Box p={3}>
           <Heading fontSize={[3, 4]}>Concept</Heading>
-          <Text fontSize={[2]}>
+          <Text fontSize={[2, 3]}>
+            <p>
+              <em>
+                The way to overcome the fear of falling is to repeat falling
+                over and over again, and cautiously so, until reaching the
+                inflection point at which the fear is dissolved into the skills
+                gained by the act of the falls repeated.{' '}
+              </em>
+            </p>
             <p>
               Inspired primarily from Capoeira and its historical evolution, but
               also infinitesimals theory in mathematics, and some other
@@ -33,8 +41,6 @@ class SpiralSphinx extends Component {
               practiced with a set of special methods, related to geometry and
               mathematics of the body.
             </p>
-          </Text>
-          <Text fontSize={[2]}>
             <p>
               Within Spiral Sphinx, participants explore the boundaries that
               they often consent to move within during daily quotidian movements

@@ -27,14 +27,14 @@ class Home extends Component {
         <EntryText />
 
         <Box p={3}>
-          <Text fontSize={[2]}>
+          <Text fontSize={[2, 3]}>
             Here in this website, you will find documentation of artworks,
             ideas, software, and other processes by <b>Emin Durak</b>.
           </Text>
         </Box>
 
         <Box p={3} pt={0}>
-          <Text fontSize={[2]}>Currently working on:</Text>
+          <Text fontSize={[2, 3]}>Currently working on:</Text>
           <ul>
             {routerLinks.map(link => (
               <ListItem
@@ -49,11 +49,36 @@ class Home extends Component {
               isExternal
             />
             <ListItem
-              label="Nodal"
-              value="http://www.nodal.network"
+              label="Artist-run Space"
+              value="http://www.artistrun.space"
+              isExternal
+            />
+            <ListItem
+              label="Labor is Love"
+              value="http://www.laborislove.se"
+              isExternal
+            />
+            <ListItem
+              label="Foreign Labor"
+              value="http://www.foreignlabor.org"
+              isExternal
+            />
+            <ListItem
+              label="Infinitesimals Expressive"
+              value="http://www.gecekondu.eu/infinitesimals"
               isExternal
             />
           </ul>
+          <p>
+            A non-updated part of my previous works can be attained here:{' '}
+            <a
+              href="http://gecekondu.eu/durak/"
+              target="_blank"
+              style={{ color: '#07c' }}
+            >
+              gecekondu.eu/durak
+            </a>
+          </p>
         </Box>
 
         <Text p={3} pt={6}>
@@ -85,10 +110,10 @@ const ListItem = ({ label, value, isExternal }) => (
 
 const EntryText = () => (
   <Box p={3}>
-    <Text fontSize={[2]} lineHeight={1.5}>
+    <Text fontSize={[2, 3]} lineHeight={1.5}>
       Infinitesimals are infinitely small numbers, objects in nature, that are
       so incalculably small. Therefore they are <em>assumed</em> to be{' '}
-      <em> Zero (0)</em> in{' '}
+      <em> non-existent</em> in{' '}
       <Link href="https://en.wikipedia.org/wiki/Mathematical_analysis">
         Standard Analysis
       </Link>
@@ -96,7 +121,7 @@ const EntryText = () => (
       <Link href="https://plato.stanford.edu/entries/continuity/">
         <em>admitted</em>
       </Link>{' '}
-      to be not.
+      to exist.
     </Text>
   </Box>
 );

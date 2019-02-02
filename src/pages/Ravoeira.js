@@ -18,7 +18,7 @@ class Ravoeira extends Component {
         </Box>
         <Box p={3}>
           <Heading fontSize={[3, 4]}>Thorough Explanation</Heading>
-          <Text fontSize={[2]}>
+          <Text fontSize={[2, 3]}>
             <p>
               Ravoeira is a sequence of historical records; of an entirely
               subjective analysis of a fictional character, who lived over
@@ -83,8 +83,10 @@ class Ravoeira extends Component {
             </p>
 
             <p>
-              A resemblant imagery appears as though what it resembles dissolves
-              in a manic oasis.
+              <em>
+                A resemblant imagery appears as though what it resembles
+                dissolves in a manic oasis...
+              </em>
             </p>
           </Text>
         </Box>
