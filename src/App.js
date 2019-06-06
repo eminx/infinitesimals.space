@@ -17,7 +17,6 @@ function App() {
         <Container fluid="true">
           <Row>
             <Col md={3}>
-              {/* {isNotHomePage && ( */}
               <div
                 style={{
                   display: 'flex',
@@ -27,7 +26,6 @@ function App() {
               >
                 <Link href="/">Home</Link>
               </div>
-              {/* )} */}
             </Col>
             <Col md={6}>
               <Router>
