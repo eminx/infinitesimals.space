@@ -24,7 +24,7 @@ class SpiralSphinx extends Component {
           <Text fontSize={[2, 3]}>
             <p>
               <em>
-                The way to overcome the fear of falling is to repeat falling
+                A way to overcome the fear of falling is to repeat falling
                 over and over again, and cautiously so, until reaching the
                 inflection point at which the fear is dissolved into the skills
                 gained by the act of the falls repeated.{' '}
@@ -34,7 +34,7 @@ class SpiralSphinx extends Component {
               Inspired primarily from Capoeira and its historical evolution, but
               also infinitesimals theory in mathematics, and some other
               improvisation techniques such as <em>Axis Syllabus</em> (Frey
-              Faust) and <em>Continously into Movement</em> (Eva
+              Faust), <em>Movement Archery</em> (Tom Weksler) and <em>Continously into Movement</em> (Eva
               Georgitsopoulou); Spiral Sphinx is a framework for movement
               improvisations. Pursued as a workshop that continue with certain
               instructions and exercises given to its participants, it is
