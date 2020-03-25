@@ -24,22 +24,22 @@ class SpiralSphinx extends Component {
           <Text fontSize={[2, 3]}>
             <p>
               <em>
-                A way to overcome the fear of falling is to repeat falling
-                over and over again, and cautiously so, until reaching the
-                inflection point at which the fear is dissolved into the skills
-                gained by the act of the falls repeated.{' '}
+                A way to overcome the fear of falling is to repeat falling over
+                and over again, and cautiously so, until reaching the inflection
+                point at which the fear is dissolved into the skills gained by
+                the act of the falls repeated.{' '}
               </em>
             </p>
             <p>
               Inspired primarily from Capoeira and its historical evolution, but
               also infinitesimals theory in mathematics, and some other
               improvisation techniques such as <em>Axis Syllabus</em> (Frey
-              Faust), <em>Movement Archery</em> (Tom Weksler) and <em>Continously into Movement</em> (Eva
-              Georgitsopoulou); Spiral Sphinx is a framework for movement
-              improvisations. Pursued as a workshop that continue with certain
-              instructions and exercises given to its participants, it is
-              practiced with a set of special methods, related to geometry and
-              mathematics of the body.
+              Faust), <em>Movement Archery</em> (Tom Weksler) and{' '}
+              <em>Continously into Movement</em> (Eva Georgitsopoulou); Spiral
+              Sphinx is a framework for movement improvisations. Pursued as a
+              workshop that continue with certain instructions and exercises
+              given to its participants, it is practiced with a set of special
+              methods, related to geometry and mathematics of the body.
             </p>
             <p>
               Within Spiral Sphinx, participants explore the boundaries that
@@ -69,12 +69,24 @@ class SpiralSphinx extends Component {
             <Heading py={20} fontSize={[3, 4]}>
               Fragments
             </Heading>
-            <ReactPlayer url="https://vimeo.com/313034151" width="100%" />
+
+            {spiralVideos.map(video => (
+              <Box py={2}>
+                <ReactPlayer url={video.videoUrl} width="100%" />
+              </Box>
+            ))}
           </Box>
         </Box>
       </div>
     );
   }
 }
+
+const spiralVideos = [
+  { videoUrl: 'https://vimeo.com/359961424' },
+  { videoUrl: 'https://vimeo.com/376707017' },
+  { videoUrl: 'https://vimeo.com/400524921' },
+  { videoUrl: 'https://vimeo.com/313034151' }
+];
 
 export default SpiralSphinx;

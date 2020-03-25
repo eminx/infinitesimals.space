@@ -7,10 +7,12 @@ import theme from './theme';
 import Home from './pages/Home';
 import Ravoeira from './pages/Ravoeira';
 import SpiralSphinx from './pages/Spiral-Sphinx';
+import Contact from './pages/Contact';
 
 function App() {
-  const isNotHomePage =
-    window && window.location && window.location.pathname !== '/';
+  // const isNotHomePage =
+  //   window && window.location && window.location.pathname !== '/';
+
   return (
     <div>
       <ThemeProvider theme={theme}>
@@ -24,13 +26,23 @@ function App() {
                   paddingTop: 24
                 }}
               >
-                <Link href="/">Home</Link>
+                <div>
+                  <Link href="/" style={{ padding: 12 }}>
+                    Home
+                  </Link>
+                </div>
+                <div>
+                  <Link href="/contact" style={{ padding: 12 }}>
+                    Contact
+                  </Link>
+                </div>
               </div>
             </Col>
             <Col md={6}>
               <Router>
                 <div>
                   <Route exact path="/" component={Home} />
+                  <Route exact path="/contact" component={Contact} />
                   <Route exact path="/ravoeira" component={Ravoeira} />
                   <Route exact path="/spiral-sphinx" component={SpiralSphinx} />
                 </div>

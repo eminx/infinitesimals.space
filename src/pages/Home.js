@@ -5,11 +5,43 @@ import { Link as RouterLink } from 'react-router-dom';
 const routerLinks = [
   {
     label: 'Spiral Sphinx',
-    value: '/spiral-sphinx'
+    value: '/spiral-sphinx',
+    isExternal: false
   },
   {
     label: 'Ravoeira',
-    value: '/ravoeira'
+    value: '/ravoeira',
+    isExternal: false
+  },
+  {
+    label: 'Labor is Love',
+    value: 'https://www.laborislove.se',
+    isExternal: true
+  },
+  {
+    label: 'Artist Run Space Software',
+    value: 'http://www.artistrun.space',
+    isExternal: true
+  },
+  {
+    label: 'Circles',
+    value: 'https://joincircles.net',
+    isExternal: true
+  },
+  {
+    label: 'Skogen',
+    value: 'https://new.skogen.pm',
+    isExternal: true
+  },
+  {
+    label: 'Librella',
+    value: 'https://librella.co',
+    isExternal: true
+  },
+  {
+    label: 'Infinitesimals Expressive',
+    value: 'http://www.gecekondu.eu/infinitesimals',
+    isExternal: true
   }
 ];
 
@@ -41,43 +73,19 @@ class Home extends Component {
                 key={link.label}
                 label={link.label}
                 value={link.value}
+                isExternal={link.isExternal}
               />
             ))}
-            <ListItem
-              label="Pomegra"
-              value="https://app.pomegra.org"
-              isExternal
-            />
-            <ListItem
-              label="Artist-run Space"
-              value="http://www.artistrun.space"
-              isExternal
-            />
-            <ListItem
-              label="Labor is Love"
-              value="http://www.laborislove.se"
-              isExternal
-            />
-            <ListItem
-              label="Foreign Labor"
-              value="http://www.foreignlabor.org"
-              isExternal
-            />
-            <ListItem
-              label="Infinitesimals Expressive"
-              value="http://www.gecekondu.eu/infinitesimals"
-              isExternal
-            />
           </ul>
           <p>
             A non-updated part of my previous works can be attained here:{' '}
-            <a
+            <Link
               href="http://gecekondu.eu/durak/"
-              target="_blank"
               style={{ color: '#07c' }}
+              isExternal
             >
               gecekondu.eu/durak
-            </a>
+            </Link>
           </p>
         </Box>
 
