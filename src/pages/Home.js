@@ -121,7 +121,7 @@ const EntryText = () => (
     <Text fontSize={[2, 3]} lineHeight={1.5}>
       Infinitesimals are infinitely small numbers, objects in nature, that are
       so incalculably small. Therefore they are <em>assumed</em> to be{' '}
-      <em> non-existent</em> in{' '}
+      non-existent in{' '}
       <Link href="https://en.wikipedia.org/wiki/Mathematical_analysis">
         Standard Analysis
       </Link>
