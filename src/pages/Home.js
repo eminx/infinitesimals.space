@@ -4,45 +4,45 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const routerLinks = [
   {
+    label: 'The Curve',
+    value: 'https://www.thecurve.world',
+    isExternal: true
+  },
+  {
     label: 'Spiral Sphinx',
     value: '/spiral-sphinx',
-    isExternal: false,
+    isExternal: false
   },
   {
     label: 'Ravoeira',
     value: '/ravoeira',
-    isExternal: false,
-  },
-  {
-    label: 'The Curve',
-    value: 'https://thecurve.infinitesimals.space',
-    isExternal: true,
+    isExternal: false
   },
   {
     label: 'Labor is Love',
     value: 'https://www.laborislove.se',
-    isExternal: true,
+    isExternal: true
   },
   {
     label: 'Artist Run Space Software',
     value: 'http://www.artistrun.space',
-    isExternal: true,
+    isExternal: true
   },
   {
     label: 'Skogen',
     value: 'https://new.skogen.pm',
-    isExternal: true,
+    isExternal: true
   },
   {
     label: 'Librella',
     value: 'https://librella.co',
-    isExternal: true,
+    isExternal: true
   },
   {
     label: 'Infinitesimals Expressive',
     value: 'http://www.gecekondu.eu/infinitesimals',
-    isExternal: true,
-  },
+    isExternal: true
+  }
 ];
 
 class Home extends Component {
@@ -68,7 +68,7 @@ class Home extends Component {
         <Box p={3} pt={0}>
           <Text fontSize={[2, 3]}>Currently working with:</Text>
           <ul>
-            {routerLinks.map((link) => (
+            {routerLinks.map(link => (
               <ListItem
                 key={link.label}
                 label={link.label}
