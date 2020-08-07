@@ -2,6 +2,22 @@ import React, { Component } from 'react';
 import { Box, Heading, Text } from 'rebass';
 import ReactPlayer from 'react-player';
 
+const performedAt = [
+  `- Borderland Festival: Boesdal, Denmark`,
+  `- Noden kulturföreningen: Stockholm, Sweden`,
+  `- Blivande House: Stockholm, Sweden`,
+  `- Höjden: Stockholm, Sweden`,
+  `- Art Labor at Refugio: Berlin, Germany`,
+  `- J-fest: Antalya, Turkey`,
+  `- Olimpos Climbing festival: Antalya, Turkey`,
+  `- Kabak Valley: Fethiye, Turkey`,
+  `- Ege Sanat Atölyesi: Izmir, Turkey`,
+  `- Çatı Dans - Association of Contemporary Dance: Istanbul, Turkey`,
+  `- Play Practice: Bangalore, India `,
+  `- Jungle Dance: Arambol, India`,
+  `- Ocean Sky: Arugam Bay, Sri Lanka`,
+];
+
 class SpiralSphinx extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -22,14 +38,14 @@ class SpiralSphinx extends Component {
         <Box p={3}>
           <Heading fontSize={[3, 4]}>Concept</Heading>
           <Text fontSize={[2, 3]}>
-            <p>
+            {/* <p>
               <em>
                 A way to overcome the fear of falling is to repeat falling over
                 and over again, and cautiously so, until reaching the inflection
                 point at which the fear is dissolved into the skills gained by
                 the act of the falls repeated.{' '}
               </em>
-            </p>
+            </p> */}
             <p>
               Inspired primarily from Capoeira and its historical evolution, but
               also infinitesimals theory in mathematics, and some other
@@ -65,12 +81,37 @@ class SpiralSphinx extends Component {
             </p>
           </Text>
 
+          <Heading py={20} fontSize={[3, 4]}>
+            Performed at:
+          </Heading>
+          <ul>
+            {performedAt.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+
+          <Heading py={20} fontSize={[3, 4]}>
+            Credits
+          </Heading>
+          <ul>
+            <li>
+              My Capoeira master Mestre Kiura, part of Senzala group, and his
+              master Mestre Zumbi
+            </li>
+            <li>
+              Eva Georgitsopoulou, with the practice "Continously into Movement"
+            </li>
+            <li>Tom Weksler, with the practice "Movement Archery"</li>
+            <li>Frey Faust, with the ecosystem of Axis Syllabus</li>
+            <li>Moa Westerlund, with her entire being...</li>
+          </ul>
+
           <Box py={20}>
             <Heading py={20} fontSize={[3, 4]}>
               Fragments
             </Heading>
 
-            {spiralVideos.map(video => (
+            {spiralVideos.map((video) => (
               <Box py={2}>
                 <ReactPlayer url={video.videoUrl} width="100%" />
               </Box>
@@ -86,7 +127,7 @@ const spiralVideos = [
   { videoUrl: 'https://vimeo.com/359961424' },
   { videoUrl: 'https://vimeo.com/376707017' },
   { videoUrl: 'https://vimeo.com/400524921' },
-  { videoUrl: 'https://vimeo.com/313034151' }
+  { videoUrl: 'https://vimeo.com/313034151' },
 ];
 
 export default SpiralSphinx;
