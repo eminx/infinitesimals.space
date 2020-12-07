@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Ravoeira from './pages/Ravoeira';
 import SpiralSphinx from './pages/Spiral-Sphinx';
 import Contact from './pages/Contact';
+import Bio from './pages/Bio';
 
 function App() {
   // const isNotHomePage =
@@ -23,7 +24,7 @@ function App() {
                 style={{
                   display: 'flex',
                   justifyContent: 'center',
-                  paddingTop: 24
+                  paddingTop: 24,
                 }}
               >
                 <div>
@@ -36,12 +37,18 @@ function App() {
                     Contact
                   </Link>
                 </div>
+                <div>
+                  <Link href="/bio" style={{ padding: 12 }}>
+                    Bio
+                  </Link>
+                </div>
               </div>
             </Col>
             <Col md={6}>
               <Router>
                 <div>
                   <Route exact path="/" component={Home} />
+                  <Route exact path="/bio" component={Bio} />
                   <Route exact path="/contact" component={Contact} />
                   <Route exact path="/ravoeira" component={Ravoeira} />
                   <Route exact path="/spiral-sphinx" component={SpiralSphinx} />

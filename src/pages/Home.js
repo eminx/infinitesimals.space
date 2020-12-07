@@ -4,6 +4,10 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const routerLinks = [
   {
+    label: 'Jackfruit Ceremony',
+    value: '',
+  },
+  {
     label: 'Cocoso',
     value: 'https://cocoso.infinitesimals.space',
     isExternal: true,
