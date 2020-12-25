@@ -4,7 +4,9 @@ import { Box, Heading, Text } from 'rebass';
 const bio = [
   `I've studied different design and technology related studies in my BSc in Istanbul and then an MFA in Arts in Stockholm. I've always been very much into dance, movement and sound art and therefore have made my master thesis with an emphasis on movement practices in different rituals and contemporary electronic dance music culture, entitled "Experience of Devotion".`,
   `Following my studies, I've worked as software developer and new media artist collaborating with several professional dance & choreography artists in Stockholm, in contemporary field. My contributions have been mainly in the form of sound art but also light and choreography.`,
-  `For about 5 years I've also been practicing capoeira on top of other movement exercises I do such as yoga, contact-impro and some improvisation techniques. My fascination with capoeira especially regarding its evolution, and my interest in contemporary art and dance naturally made me articulate and create this workshop called "Spiral Sphinx" which includes different movement material and tools to transform the body in both primitive and sophisticated sense with a detailed focused in individual's own, diverse expressions; besides as a tool for an active, playful resistance.`,
+  `I have been busy writing a few software projects that have kept me busy last years. One that is called "Cocoso" (Community Cooperation Software) is basically one that provides tools for organisations to build their own platform. Based on Cocoso, I have intentions to create a platform that will connect artistrun spaces and artists globally.`,
+  `My other baby software project is "Librella": A platform for book-lovers to lend their books to each other`,
+  `Then, for about 5+ years I've been practicing capoeira on top of other movement exercises I do such as yoga, contact-impro and some improvisation techniques. My fascination with capoeira especially regarding its evolution, and my interest in contemporary art and dance naturally made me articulate and create this workshop called "Spiral Sphinx" which includes different movement material and tools to transform the body in both primitive and sophisticated sense with a detailed focused in individual's own, diverse expressions; besides as a tool for an active, playful resistance.`,
 ];
 
 const bioSelf = [
@@ -53,7 +55,7 @@ class Bio extends Component {
             </Text>
           ))}
         </Box>
-        <Box p={3}>
+        {/* <Box p={3}>
           <Heading fontSize={[2, 3]} mb={2}>
             Also Emin Durak
           </Heading>
@@ -62,7 +64,7 @@ class Bio extends Component {
               {item}
             </Text>
           ))}
-        </Box>
+        </Box> */}
         <Box p={3}>
           <Heading fontSize={[2, 3]} mb={4}>
             Some Works Published: (need update...)
