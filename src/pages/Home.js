@@ -59,7 +59,7 @@ const routerLinks = [
   },
   {
     label: 'Infinitesimals Expressive',
-    value: 'http://www.gecekondu.eu/infinitesimals',
+    // value: 'http://www.gecekondu.eu/infinitesimals',
     isExternal: true,
   },
 ];
@@ -96,7 +96,7 @@ class Home extends Component {
               />
             ))}
           </ul>
-          <p>
+          {/* <p>
             A non-updated part of my previous works can be attained here:{' '}
             <Link
               href="http://gecekondu.eu/durak/"
@@ -105,7 +105,7 @@ class Home extends Component {
             >
               gecekondu.eu/durak
             </Link>
-          </p>
+          </p> */}
         </Box>
 
         <Text p={3} pt={6}>
