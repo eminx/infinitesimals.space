@@ -99,6 +99,9 @@ class SpiralSphinx extends Component {
               master Mestre Zumbi
             </li>
             <li>
+              Åska Saga Eriksson, for her fantastic being and the movements
+            </li>
+            <li>
               Eva Georgitsopoulou, with the practice "Continously into Movement"
             </li>
             <li>Tom Weksler, with the practice "Movement Archery"</li>
