@@ -4,6 +4,11 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const routerLinks = [
   {
+    label: 'Circles UBI',
+    value: 'https://joincircles.net',
+    isExternal: true,
+  },
+  {
     label: 'Jackfruit Ceremony',
     value: '',
   },
