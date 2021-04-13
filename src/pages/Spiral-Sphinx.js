@@ -16,6 +16,8 @@ const performedAt = [
   `- Play Practice: Bangalore, India `,
   `- Jungle Dance: Arambol, India`,
   `- Ocean Sky: Arugam Bay, Sri Lanka`,
+  `- Ekoyoga Festival at Pastoral Vadi: Yanıklar, Fethiye, Turkey`,
+  `- Şifa ve Sanat Kampı at Pastoral Vadi: Yanıklar, Fethiye, Turkey`,
 ];
 
 class SpiralSphinx extends Component {
