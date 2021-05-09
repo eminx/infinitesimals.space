@@ -29,7 +29,7 @@ const routerLinks = [
   },
   {
     label: 'The Curve',
-    value: 'https://www.thecurve.world',
+    value: 'https://thecurve.infinitesimals.space',
     isExternal: true,
   },
   {
