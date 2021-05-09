@@ -14,12 +14,12 @@ const routerLinks = [
   },
   {
     label: 'Cocoso',
-    value: 'https://cocoso.infinitesimals.space',
+    value: 'https://www.cocoso.info',
     isExternal: true,
   },
   {
     label: 'Community Currency Alliance',
-    value: 'https://currency.community',
+    value: 'https://forum.currency.community',
     isExternal: true,
   },
   {
