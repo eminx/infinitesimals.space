@@ -4,13 +4,18 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const routerLinks = [
   {
+    label: 'Sphinx Dance',
+    value: 'https://sphinx.dance',
+    isExternal: true,
+  },
+  {
     label: 'Circles UBI',
     value: 'https://joincircles.net',
     isExternal: true,
   },
   {
     label: 'Jackfruit Ceremony',
-    value: '',
+    value: 'https://sphinx.dance/jackfruit-ceremony',
   },
   {
     label: 'Cocoso',

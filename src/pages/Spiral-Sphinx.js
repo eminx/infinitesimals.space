@@ -18,6 +18,9 @@ const performedAt = [
   `- Ocean Sky: Arugam Bay, Sri Lanka`,
   `- Ekoyoga Festival at Pastoral Vadi: Yanıklar, Fethiye, Turkey`,
   `- Şifa ve Sanat Kampı at Pastoral Vadi: Yanıklar, Fethiye, Turkey`,
+  `- Nefses camp, Kayaköy, Fethiye, Turkey`,
+  `- Tales of Utopia Bay Festival, Fethiye, Turkey`,
+  `- Rocas Roja, Faralya, Fethiye, Turkey`,
 ];
 
 class SpiralSphinx extends Component {
@@ -117,7 +120,7 @@ class SpiralSphinx extends Component {
             </Heading>
 
             {spiralVideos.map((video) => (
-              <Box py={2}>
+              <Box key={video.videoUrl} py={2}>
                 <ReactPlayer url={video.videoUrl} width="100%" />
               </Box>
             ))}
