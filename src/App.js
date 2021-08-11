@@ -9,6 +9,7 @@ import Ravoeira from './pages/Ravoeira';
 import SpiralSphinx from './pages/Spiral-Sphinx';
 import Contact from './pages/Contact';
 import Bio from './pages/Bio';
+import FrontenderWanted from './pages/FrontenderWanted';
 
 function App() {
   // const isNotHomePage =
@@ -52,6 +53,11 @@ function App() {
                   <Route exact path="/contact" component={Contact} />
                   <Route exact path="/ravoeira" component={Ravoeira} />
                   <Route exact path="/spiral-sphinx" component={SpiralSphinx} />
+                  <Route
+                    exact
+                    path="/frontender-wanted"
+                    component={FrontenderWanted}
+                  />
                 </div>
               </Router>
             </Col>

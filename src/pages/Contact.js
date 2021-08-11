@@ -11,9 +11,6 @@ class Contact extends Component {
       <div>
         <Box p={3}>
           <Heading fontSize={[4, 5]}>Contact</Heading>
-          {/* <Heading fontSize={[1, 2]}>
-            currently available for freelance work
-          </Heading> */}
         </Box>
         <Box p={3}>
           <Heading fontSize={[2, 3]}>Email</Heading>
