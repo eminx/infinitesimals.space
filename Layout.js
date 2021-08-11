@@ -1,6 +1,21 @@
 import React, { useEffect } from 'react';
-import { Link } from 'rebass';
-import { Container, Row, Col } from 'react-grid-system';
+import Head from 'next/head';
+import Link from 'next/link';
+
+const routes = [
+  {
+    value: '/',
+    label: 'Home',
+  },
+  {
+    value: '/bio',
+    label: 'Bio',
+  },
+  {
+    value: '/contact',
+    label: 'Contact',
+  },
+];
 
 function Layout({ children }) {
   useEffect(() => {
@@ -8,37 +23,34 @@ function Layout({ children }) {
   }, []);
 
   return (
-    <Container fluid style={{ maxWidth: 1080 }}>
-      <Row>
-        <Col md={3}>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              paddingTop: 24,
-            }}
-          >
-            <div>
-              <Link href="/" style={{ padding: 12 }}>
-                Home
-              </Link>
-            </div>
-            <div>
-              <Link href="/contact" style={{ padding: 12 }}>
-                Contact
-              </Link>
-            </div>
-            <div>
-              <Link href="/bio" style={{ padding: 12 }}>
-                Bio
-              </Link>
-            </div>
+    <>
+      <Head>
+        <title>Emin Durak | Infinitesimals Space | Research Projects </title>
+      </Head>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          paddingTop: 12,
+        }}
+      >
+        {routes.map((route) => (
+          <div key={route.label} style={{ padding: 12 }}>
+            <Link href={route.value}>{route.label}</Link>
           </div>
-        </Col>
-        <Col md={6}>{children}</Col>
-        <Col md={3} />
-      </Row>
-    </Container>
+        ))}
+      </div>
+      <div
+        style={{
+          maxWidth: 480,
+          margin: '0 auto',
+          padding: '0 24px',
+          marginBottom: 48,
+        }}
+      >
+        {children}
+      </div>
+    </>
   );
 }
 

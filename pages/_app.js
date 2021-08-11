@@ -1,16 +1,11 @@
-import { ThemeProvider } from 'styled-components';
-
-import theme from '../theme.js';
 import '../styles/globals.css';
 import Layout from '../Layout.js';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <ThemeProvider theme={theme}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </ThemeProvider>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 };
 export default MyApp;
