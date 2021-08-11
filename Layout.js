@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-const routes = [
+const menu = [
   {
     value: '/',
     label: 'Home',
@@ -27,20 +27,20 @@ function Layout({ children }) {
       <Head>
         <title>Emin Durak | Infinitesimals Space | Research Projects </title>
       </Head>
-      <div
+      <nav
         style={{
           display: 'flex',
           justifyContent: 'center',
           paddingTop: 12,
         }}
       >
-        {routes.map((route) => (
-          <div key={route.label} style={{ padding: 12 }}>
-            <Link href={route.value}>{route.label}</Link>
+        {menu.map((item) => (
+          <div key={item.label} style={{ padding: 12 }}>
+            <Link href={item.value}>{item.label}</Link>
           </div>
         ))}
-      </div>
-      <div
+      </nav>
+      <main
         style={{
           maxWidth: 480,
           margin: '0 auto',
@@ -49,7 +49,7 @@ function Layout({ children }) {
         }}
       >
         {children}
-      </div>
+      </main>
     </>
   );
 }

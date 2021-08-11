@@ -16,9 +16,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
