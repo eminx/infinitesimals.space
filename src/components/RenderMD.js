@@ -3,7 +3,7 @@ import { Box } from 'rebass';
 import ReactMarkdown from 'react-markdown';
 
 export default function RenderMD({ mdFilePath }) {
-  const [source, setSource] = useState(null);
+  const [source, setSource] = useState('');
 
   useEffect(() => {
     window.scrollTo(0, 0);
