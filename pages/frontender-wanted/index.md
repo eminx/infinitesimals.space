@@ -1,8 +1,11 @@
-# Front-end Web Developer Wanted
+# Web Developer Wanted (frontend)
 
 **Merhaba!**
 
 _NOT: Bu geleneksel olmayan bir iş ilanıdır._
+
+<img src="https://media.giphy.com/media/EE185t7OeMbTy/giphy.gif" alt="Looking for a frontender" width="100%" />
+<div style={{textAlign: 'center', fontSize: '80%'}}>We need you <br /><a href="https://giphy.com/gifs/cat-kitty-kittens-EE185t7OeMbTy" target="_blank">gif src</a></div>
 
 Yıllarca el emeği, göz nuru, kalp ışığı ile yoğrularak oluşturulmuş birkaç sayfa kodun bir araya gelip özel geliştirilmiş derleyiciler (compiler) ve sunucular tarafından bir işe yarar hale geldiği mekanizmamızın geliştirilmesinin devamı için arkadaş arıyoruz.
 
