@@ -44,10 +44,10 @@ Seeing body as a radically autonomous assemblage and everything it does as an im
 
 ## Fragments
 
-<iframe src="https://player.vimeo.com/video/359961424" width="100%" height="360" frameborder="0" allowfullscreen title="Spiral Sphinx #002: Alienvation with GYRL"  ></iframe>
+<iframe src="https://player.vimeo.com/video/359961424" width="100%" height="360" frameborder="0" allowFullscreen title="Spiral Sphinx #002: Alienvation with GYRL"  ></iframe>
 
-<iframe src="https://player.vimeo.com/video/376707017" width="100%" height="360" frameborder="0" allowfullscreen title="Spiral-Sphinx @Cati Dans Istanbul" ></iframe>
+<iframe src="https://player.vimeo.com/video/376707017" width="100%" height="360" frameborder="0" allowFullscreen title="Spiral-Sphinx @Cati Dans Istanbul" ></iframe>
 
-<iframe src="https://player.vimeo.com/video/400524921" width="100%" height="360" frameborder="0" allowfullscreen title="Spiral Sphinx Impro Performance" ></iframe>
+<iframe src="https://player.vimeo.com/video/400524921" width="100%" height="360" frameborder="0" allowFullscreen title="Spiral Sphinx Impro Performance" ></iframe>
 
-<iframe src="https://player.vimeo.com/video/313034151" width="100%" height="360" frameborder="0" allowfullscreen title="Spiral Sphinx #001 - On a Frozen Lake" ></iframe>
+<iframe src="https://player.vimeo.com/video/313034151" width="100%" height="360" frameborder="0" allowFullscreen title="Spiral Sphinx #001 - On a Frozen Lake" ></iframe>

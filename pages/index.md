@@ -7,9 +7,16 @@ Here in this website, you will find documentation of artworks, ideas, software, 
 Currently working with:
 
 - [Sphinx Dance](https://sphinx.dance/)
-- [Circles UBI](https://joincircles.net/)
-- [Jackfruit Ceremony](https://sphinx.dance/jackfruit-ceremony)
+
+- [Librella](https://librella.co/)
+
 - [Cocoso](https://www.cocoso.info/)
+
+- [Circles UBI](https://joincircles.net/)
+
+- [Jackfruit Ceremony](https://sphinx.dance/jackfruit-ceremony)
+
+- [Skogen](https://new.skogen.pm/)
 
 - [Community Currency Alliance](https://forum.currency.community/)
 
@@ -17,17 +24,13 @@ Currently working with:
 
 - [The Curve](https://thecurve.infinitesimals.space/)
 
-- [Spiral Sphinx](http://localhost:3000/spiral-sphinx)
+- [Spiral Sphinx](/spiral-sphinx)
 
-- [Ravoeira](http://localhost:3000/ravoeira)
+- [Ravoeira](/ravoeira)
 
 - [Labor is Love](https://www.laborislove.se/)
 
 - [Artist Run Space Software](http://www.artistrun.space/)
-
-- [Skogen](https://new.skogen.pm/)
-
-- [Librella](https://librella.co/)
 
 ---
 
