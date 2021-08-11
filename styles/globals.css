@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Carter+One|Sarabun:500');
+
+html {
+  min-height: 100vh;
+}
+
+a {
+  color: #07c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1.5em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
