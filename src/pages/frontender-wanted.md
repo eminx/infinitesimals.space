@@ -44,15 +44,11 @@ Eğer bu tür alanlar ile ilgileniyorsanız ve bilgisayar başında zevk ya da a
 
 Üzerine çalıştığımız projeleri şurdan inceleyebilirsiniz:
 
-[www.cocoso.info](https://www.cocoso.info) (kaynak: [github.com/eminx/cocoso](https://github.com/eminx/cocoso))
-
-[joincircles.net](https://joincircles.net) (kaynak: [github.com/CirclesUBI](https://github.com/CirclesUBI))
-
-[librella.co](https://librella.co)
-
-[www.artistrun.space](https://www.artistrun.space)
-
-[www.laborislove.se](https://www.laborislove.se)
+- [www.cocoso.info](https://www.cocoso.info) (kaynak: [github.com/eminx/cocoso](https://github.com/eminx/cocoso))
+- [joincircles.net](https://joincircles.net) (kaynak: [github.com/CirclesUBI](https://github.com/CirclesUBI))
+- [librella.co](https://librella.co)
+- [www.artistrun.space](https://www.artistrun.space)
+- [www.laborislove.se](https://www.laborislove.se)
 
 Bu iş tam zamanlı ya da belli bir zaman aralığında veya part-time olabilir. Ama iş arkadaşımızdan bir özveri bekliyor olacağız. Kendi ritiminiz içerisinde dilediğiniz özgürlükte karşılıklı güven ve saygı çerçevesinde bir disiplin bekliyoruz. Uzaktan, evden çalışmak mümkün, ancak Muğla ilinin Ortaca ilçesine, yani bizim yakınımızda yaşıyor olmanız da müthiş olurdu aslında. Olmasa bile belki buralara taşınmayı dilersiniz kim bilir?
 
@@ -60,4 +56,5 @@ Eğer ilgileniyorsanız, motivasyonunuzu ve sizinle ilgili edinmemizi istediğin
 
 NOT: Bizim için cinsiyetinizi nasıl tanımladığınız, cinsel yöneliminiz, nereli olduğunuz, nerden geldiğiniz, siyasal düşünceniz, özel durumlarınız birer karar verme kriteri değil. Ancak biz kimlikten çok özgünlüğe, özden çok varoluşa, görüntüden çok içeriğe, yargılardan çok hislere, mantıktan çok aşka inanıyoruz ve sizden de bu şekilde bir tutum bekleriz genel olarak. Eh sonuçta eğer beraber çalışacak isek...
 
-Sevgiler,\nEmin
+Sevgiler,\
+Emin
