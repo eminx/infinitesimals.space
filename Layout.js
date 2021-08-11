@@ -27,29 +27,14 @@ function Layout({ children }) {
       <Head>
         <title>Emin Durak | Infinitesimals Space | Research Projects </title>
       </Head>
-      <nav
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          paddingTop: 12,
-        }}
-      >
+      <nav className="navbar">
         {menu.map((item) => (
-          <div key={item.label} style={{ padding: 12 }}>
+          <div key={item.label} className="navbar-item">
             <Link href={item.value}>{item.label}</Link>
           </div>
         ))}
       </nav>
-      <main
-        style={{
-          maxWidth: 480,
-          margin: '0 auto',
-          padding: '0 24px',
-          marginBottom: 48,
-        }}
-      >
-        {children}
-      </main>
+      <main>{children}</main>
     </>
   );
 }
