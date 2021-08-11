@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Box, Heading, Text } from 'rebass';
 
 const bio = [
-  `I've studied different design and technology related studies in my BSc in Istanbul and then an MFA in Arts in Stockholm. I've always been very much into dance, movement and sound art and therefore have made my master thesis with an emphasis on movement practices in different rituals and contemporary electronic dance music culture, entitled "Experience of Devotion".`,
+  `I've studied different design and technology related studies in my BSc in Istanbul, Industrial Design from Istanbul Technical University, and then an MFA in Arts in Stockholm from Konstfack University College of Arts, Crafts & Design. I've always been very much into dance, movement and sound art and therefore have made my master thesis with an emphasis on movement practices in different rituals and contemporary electronic dance music culture, entitled "Experience of Devotion".`,
   `Following my studies, I've worked as software developer and new media artist collaborating with several professional dance & choreography artists in Stockholm, in contemporary field. My contributions have been mainly in the form of sound art but also light and choreography.`,
   `I have been busy writing a few software projects that have kept me busy last years. One that is called "Cocoso" (Community Cooperation Software) is basically one that provides tools for organisations to build their own platform. Based on Cocoso, I have intentions to create a platform that will connect artistrun spaces and artists globally.`,
   `My other baby software project is "Librella": A platform for book-lovers to lend their books to each other`,
