@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/spiral-sphinx": "pages/spiral-sphinx.js",
-  "/": "pages/index.js",
-  "/frontender-wanted": "pages/frontender-wanted.js"
+  "/frontender-wanted": "pages/frontender-wanted.js",
+  "/contact": "pages/contact.js"
 }
