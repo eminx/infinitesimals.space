@@ -12,7 +12,7 @@ export default function RenderMD({ mdFilePath }) {
       .then((text) => {
         setSource(text);
       });
-  }, []);
+  }, [mdFilePath]);
 
   return (
     <div>

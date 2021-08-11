@@ -16,6 +16,7 @@ const routerLinks = [
   {
     label: 'Jackfruit Ceremony',
     value: 'https://sphinx.dance/jackfruit-ceremony',
+    isExternal: true,
   },
   {
     label: 'Cocoso',
