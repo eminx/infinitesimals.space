@@ -1,4 +1,4 @@
-# Web Developer Wanted (frontend)
+# Web Developer Wanted
 
 **Merhaba!**
 
