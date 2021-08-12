@@ -59,6 +59,8 @@ Eğer bu tür alanlar ile ilgileniyorsanız ve bilgisayar başında zevk ya da a
 
 Bu iş tam zamanlı ya da belli bir zaman aralığında veya part-time olabilir. Ama iş arkadaşımızdan bir özveri bekliyor olacağız. Kendi ritiminiz içerisinde dilediğiniz özgürlükte karşılıklı güven ve saygı çerçevesinde bir disiplin bekliyoruz. Uzaktan, evden çalışmak mümkün, ancak Muğla ilinin Ortaca ilçesine, yani bizim yakınımızda yaşıyor olmanız da müthiş olurdu aslında. Olmasa bile belki buralara taşınmayı dilersiniz kim bilir?
 
+Tabikine yapay zeka olsun değişik türde gerçeklikler olsun makine öğrenimi olsun bu tür cool şeylerle de ilgili takılmak istiyoruz. Ancak önce temelimizi oluşturmamız gerek.
+
 Finansal olarak her ne kadar güçlü ve önü açık bir bütçemiz şu an olmasa da size bir ödeme tabi ki hakkıyla yapacağız. Umuyoruz ki sizin de katkınız ile ilerleyen zamanlarda daha sürdürülebilir bir yere geleceğimize inanıyoruz.
 
 Eğer ilgileniyorsanız, motivasyonunuzu ve sizinle ilgili edinmemizi istediğiniz bilgiyi dilediğiniz formda [emin@infinitesimals.space adresine, "Front-end Web Developer" başlığı ile](mailto:emin@infinitesimals.space?subject=Front-end%20Web%20Developer) gönderirseniz seviniriz. Yeni mezun, kendi kendine öğrenmiş, stajer ya da çok deneyimli olabilirsiniz; lütfen içinizden geliyorsa irtibat kurunuz.
