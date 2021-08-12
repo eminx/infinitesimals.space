@@ -1,6 +1,6 @@
 # infinitesimals » space
 
-Infinitesimals are infinitely small numbers, objects in nature, that are so incalculably small. Therefore they are _assumed_ to be non-existent in [Standard Analysis](https://en.wikipedia.org/wiki/Mathematical_analysis), despite that they are _admitted_ to exist.
+Infinitesimals are infinitely small numbers, objects in nature, that are so incalculably small. Therefore they are _assumed_ to be non-existent in [Standard Analysis](https://en.wikipedia.org/wiki/Mathematical_analysis), despite that they are [_admitted_](https://plato.stanford.edu/entries/continuity/) to exist.
 
 Here in this website, you will find documentation of artworks, ideas, software, and other processes by **Emin Durak**.
 
