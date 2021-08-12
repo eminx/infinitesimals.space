@@ -19,7 +19,7 @@ Web sayfaları/siteleri oluşturulması konusunda deneyiminiz, didinmişliğiniz
 - `Node JS`,
 - `Meteor JS`,
 - `Styled-components`,
-- `HTML Canvas` API,
+- `HTML Canvas API`,
 - `Typescript,`
 - `Next JS`,
 - `Mongo DB`,
@@ -27,7 +27,7 @@ Web sayfaları/siteleri oluşturulması konusunda deneyiminiz, didinmişliğiniz
 - `GraphQL,`
 - `CI/CD`,
 - `SaaS,`
-- `Heroku &` AWS,
+- `Heroku & AWS`,
 - `Websockets,`
 - `PostCSS,`
 - `Docker,`
